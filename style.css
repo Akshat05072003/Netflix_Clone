@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+*{
+    padding:0;margin:0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("assets/images/back.jpg");
+    height:80vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+    
+}
+.box{
+    height:80vh;
+    width:100%;
+    opacity: 0.60;
+    position: absolute;
+    top:0;
+    background-color: black;
+    color: white;
+}
+
+nav{
+    height:85px;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    max-width: 70vw;
+    margin:auto;
+}
+
+.log{
+    color: red;
+    width:150px;
+    position: relative;
+    z-index: 10;
+}
+
+.but{
+    position: relative;
+    z-index: 10;
+}
+
+.her{
+    
+    padding:0 28px;
+    height:calc(100% - 62px);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: whitesmoke;
+    position: relative;
+    z-index: 10;
+    font-family: "Martel Sans", sans-serif;
+    gap: 20px;
+    text-align: center;
+}
+.first{
+    font-size: 48px;
+    font-weight:900;
+    
+}
+
+.second{
+    font-weight: 400;
+    font-size: 23px;
+    
+}
+.third{
+    font-weight:400;
+    font-size:20px;
+}
+.in{
+    padding: 10px;
+    height: 40px;
+    width:400px;
+    border-radius:5px ;
+    background-color: black;
+    opacity: 0.60;
+    font-size: large;
+    color: white;
+    position: relative;
+    z-index: 10;
+}
+.get{
+    height:60px;
+    width:170px;
+    border-radius: 4px;
+    background-color: red;
+    color:whitesmoke;
+    text-align: center;
+    font-size: larger;
+    
+}
+.seperate{
+    height:8px;
+    background-color: grey;
+}
+
+.but1{
+    padding:3px;
+    font-weight: 600;
+    height:30px;
+    width:100px;
+    background-color: black;
+    opacity:0.60;
+    color:whitesmoke;
+    position: relative;
+    z-index: 10;
+    border-radius: 4px;
+}
+
+.but2{
+    border-radius: 5px;
+    padding:3px;
+    font-weight: 600;
+    height:30px;
+    width:100px;
+    background-color: red;
+    color:whitesmoke;
+    position: relative;
+    z-index: 10;
+}
+.but2:hover{
+    background-color: rgba(211, 49, 49, 0.825)
+}
+.get:hover{
+    background-color: rgba(211,49,49,0.825);
+}
+
+.sec1{
+    display: flex;
+    justify-content: center;
+    max-width: 60vw;
+    margin: auto;    
+    color:white;
+    align-items: center;
+    
+}
+.img2{
+    position: relative;
+    
+    
+    
+}
+.imgtv{
+    width:30vw;
+    position:relative ;
+    z-index: 10;
+}
+.loop{
+    position: absolute;
+    top:51px;
+    right:0;
+    height:207px;
+    width:440px;
+}
+.txt1{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.txt2{
+    font-size: 24px;
+
+}
+.txtflex{
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+.loop10{
+    position: absolute;
+    top:21px;
+    right: 94px;
+    height:207px;
+    width:280px;
+}
+.faq{
+    background: black;
+    color: white;
+    padding:34px;
+    font-size: 24px;
+}
+
+.quest{
+    display: flex;
+    background-color:rgb(83, 79, 79);
+    padding:14px;
+    max-width:40vw;
+    margin:14px auto;
+    transition: all 1s ease-out;
+    
+}
+.head1{
+    text-align: center;
+    font-size: 48px;
+}
+
+
+.quest:hover{
+    background-color: rgb(56, 55, 55);
+}
+footer{
+    color:white;
+    max-width: 60vw;
+    margin:auto;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    padding:25px;   
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    gap:23px;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+
+.call{
+    
+    max-width: 60vw;
+    margin:auto ;
+    
+}
+.footer a{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(121, 115, 115);
+    
+}
+
+footer.call{
+    padding:34px;
+}
